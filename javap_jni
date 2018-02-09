@@ -1,8 +1,9 @@
 javap -s -p 完整类名
 
-路径：app\build\intermediates\classes\debug>
+路径:app\build\intermediates\classes\debug>
 
 javap -s -p com/liqy/cmakeapp/Jni.class
 
-app\src\main\java
+在此目录下执行app\src\main\java
+
 javah -classpath . -jni com.liqy.cmakeapp.Jni
